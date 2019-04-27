@@ -26,6 +26,17 @@ h1 {
     color: #fff;
     background-color: #1085e4;
 }
+.btn a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1085e4;
+    text-transform: uppercase;
+}
+.btn a:hover {
+color: #7e8bae;
+background-color: #cbdbe8;
+}
 .grid h2 {
     font-size: 40px;
     font-weight: 700;
@@ -47,4 +58,104 @@ h1 {
     font-weight: 600;
     font-size: 14px;
     color: #1085e4;
+}
+.founder span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #192b59;
 } 
+p.founder  {
+    font-size: 14px;
+    color: 14px;
+    color:#1085e4;
+}
+.page-subscribe span {
+    font-size:14px;
+    font-weight: 800;
+    color: #00bffe;
+    display: block;
+    text-transform: uppercase;
+}
+.page-subscribe h2 {
+    font-size:50px;
+    font-weight: 600;
+    color: #fff;
+}
+.page-subscribe p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #dfe8ff;
+}
+.page-subscribe input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b1c3ee;
+}
+.page-subscribe button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #1085e4;
+}
+.page-softwere h2,
+.page-stat h2,
+.page-app h2,
+.page-analitics h2
+ {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+}
+.page-softwere dt {
+    color: #5a6789;
+    font-size: 16px;
+    font-weight: 700;
+}
+.page-stat h2 span {
+    color: #1085e4;
+    font-weight: 800;
+    font-size: 16px;
+    display: block;
+    text-transform: uppercase;
+}
+.page-stat li {
+    color: #1085e4;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;   
+}
+.page-stat li span {
+    color: #bacbdc;
+    font-weight: 700;
+    font-size: 60px;
+    display: block;
+    text-transform: uppercase;
+}
+.page-app p:nth-child(3) {
+    color: #c4d2dd;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.page-analitics a,
+.page-app a {
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #1085e4;
+}
+.page-screen span {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+    display: block;
+}
+.page-screen h2 {
+color: #192b59;
+font-size: 40px;
+font-weight: 600;
+}
