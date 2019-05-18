@@ -303,3 +303,87 @@ p.founder  {
     background-color: #192b59;
     color: #fff;
 }
+.flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+} 
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav li {
+    padding: 0;
+    margin-right: 40px;
+}
+.nav li:last-child {
+    margin-right: 0;
+}
+.page-grid h2 {
+    max-width: 260px;
+    letter-spacing: -1.2px;
+    line-height: 1.2;
+}
+.page-grid h2 span {
+    letter-spacing: 2.8px;
+    margin-bottom: 16px;
+}
+.page-subscribe h2 {
+    letter-spacing: -1.4px;
+}
+.page-subscribe h2 span {
+    letter-spacing: 1px;
+    letter-spacing: 2.8px;
+    margin-bottom: 31px;
+}
+.page-softwere h2 {
+    max-width: 545px;
+    letter-spacing: -0.85px;
+    line-height: 1.2;
+}
+.page-app-1 h2,
+.page-app h2,
+.page-form h2 {
+    max-width: 465px;
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+}
+.page-analitics h2 {
+    max-width: 505px;
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+}
+.page-app h2 {
+    max-width: 425px;
+}
+.page-clients h2,
+.page-team h2 {
+    max-width: 331px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+}
+.page-clients h2 span,
+.page-team h2 span {
+    display: block;
+    color: #85c8ff;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3.7px;
+    margin-bottom: 27px;
+}
+.page-form h2 {
+    max-width: 482px;
+}
+.box-price-item h3 {
+    color: #000958;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
