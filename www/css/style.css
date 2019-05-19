@@ -303,3 +303,7 @@ p.founder  {
     background-color: #192b59;
     color: #fff;
 }
+.box-price-item,
+.box-price-item.active {
+    position: relative;
+}
