@@ -332,11 +332,6 @@ p.founder  {
     background-color: #192b59;
     color: #fff;
 }
-<<<<<<< HEAD
-.box-price-item,
-.box-price-item.active {
-    position: relative;
-=======
 .nav {
     display: flex;
     justify-content: space-between;
@@ -571,5 +566,4 @@ p.founder  {
     border: none;
     outline: none;
     margin-left: 37px;
->>>>>>> homework
 }
