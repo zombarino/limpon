@@ -17,6 +17,9 @@ h1 {
     margin-bottom: 65px;
 }
 .logo {
+    height: 49px;
+    width: 181px;
+    display: block;
     background-image: url(../img/logo.png);
 }
 .nav {
@@ -30,7 +33,7 @@ h1 {
     display: flex;
 }
 .nav>li {
-    padding: 0 15px;
+    padding: 0 29px 0 0;
 }
 .nav-item { 
     color: #6e7ea9;
@@ -78,6 +81,17 @@ h1 {
 }
 .btn-secondary:hover {
     background-color: #fff;
+}
+.screen-img {
+    display: block;
+    background-image: url(../img/header-screen.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 495px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    top: 191px;
 }
 .btn-free {
     font-weight: 400;
@@ -239,6 +253,13 @@ p.founder  {
     max-width: 1110px;
     margin: 0 auto;
 }
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 53px; */
+    margin-bottom: 304px;
+}
 .page-stat .title-h2 {
     font-size: 50px;
     color: #192b59;
@@ -321,6 +342,44 @@ p.founder  {
 }
 .nav li:last-child {
     margin-right: 0;
+}
+.page-company {
+    background-image: url(../img/partners-bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 106px 0 97px;
+}
+.list-company {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+} 
+.company-one {
+    background-image: url(../img/company-one.png);
+    flex-basis: 198px;
+    height: 59px;
+}.company-two {
+    background-image: url(../img/company-two.png);
+    flex-basis: 200px;
+    height: 70px;
+}.company-three {
+    background-image: url(../img/company-three.png);
+    flex-basis: 201px;
+    height: 47px;
+}.company-four {
+    background-image: url(../img/company-four.png);
+    flex-basis: 200px;
+    height: 70px;
+}
+.list-company-item {
+    display: block;
+    background-repeat: no-repeat;
 }
 .page-grid h2 {
     max-width: 260px;
@@ -437,7 +496,7 @@ p.founder  {
 .title-40 {
     margin-bottom: 83px;
 }
-.container {
+/* .container {
     position: absolute;
     width: 0;
     height: 0;
@@ -446,7 +505,7 @@ p.founder  {
     border-right: 0px solid transparent;
     top: 0;
     right: 0;
-}
+} */
 .box-price-item:nth-child(odd)::after {
     width: 65px;
     height: 590px;
@@ -455,4 +514,56 @@ p.founder  {
     background-image: url(../img/right-element2.png);
     top: 0;
     right: 0; 
+}
+.page-header {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 54px 0 328px 0;
+    position: relative;
+}
+.page-subscribe {
+    background: rgba(10,32,144,1);
+    background: -moz-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(10,32,144,1)), color-stop(100%, rgba(35,120,205,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: linear-gradient(135deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2090', endColorstr='#2378cd', GradientType=1 );
+}
+.page-subscribe .wrap {
+    display: flex;
+    justify-content: space-between;  
+}
+.page-subscribe {
+    padding: 51px 0;
+}
+.page-subscribe .wrap img {
+    height: 80%;
+    width: 32%;
+}
+.page-subscribe h2 {
+    margin-top: 62px;
+}
+.page-subscribe p {
+    max-width: 405px;
+}
+.page-subscribe form {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 37px;
+    padding: 8px 0;
+    width: 536px;
+    margin-top: 41px;
+}
+.page-subscribe button {
+    margin-left: 118px;
+    outline: none;
+}
+.page-subscribe input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 37px;
 }
