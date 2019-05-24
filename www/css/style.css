@@ -16,6 +16,12 @@ h1 {
     letter-spacing: -2.4px;
     margin-bottom: 65px;
 }
+.logo {
+    height: 49px;
+    width: 181px;
+    display: block;
+    background-image: url(../img/logo.png);
+}
 .nav {
     font-weight: 700;
     font-size: 12px;
@@ -27,7 +33,7 @@ h1 {
     display: flex;
 }
 .nav>li {
-    padding: 0 15px;
+    padding: 0 29px 0 0;
 }
 .nav-item { 
     color: #6e7ea9;
@@ -59,7 +65,7 @@ h1 {
     letter-spacing: -0.8px;
 }
 .btn-primary:hover {
-    background-color: #fff;
+    background-color: transparent;
     color: #1085e4;
 }
 .btn-secondary {
@@ -76,6 +82,17 @@ h1 {
 .btn-secondary:hover {
     background-color: #fff;
 }
+.screen-img {
+    display: block;
+    background-image: url(../img/header-screen.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 495px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    top: 191px;
+}
 .btn-free {
     font-weight: 400;
     padding: 20px 56px;
@@ -88,9 +105,14 @@ h1 {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
-    padding: 20px 61px;
+    padding: 15px 61px;
     border-radius: 30px;
     letter-spacing: 2.45px;
+    display: block;
+    margin: 45px 56px 0;
+}
+.btn-info:hover {
+    background-color: #94b4cc;
 }
 .btn-group a + a {
     margin-left: 15px;
@@ -231,6 +253,13 @@ p.founder  {
     max-width: 1110px;
     margin: 0 auto;
 }
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 53px; */
+    margin-bottom: 304px;
+}
 .page-stat .title-h2 {
     font-size: 50px;
     color: #192b59;
@@ -303,7 +332,244 @@ p.founder  {
     background-color: #192b59;
     color: #fff;
 }
+<<<<<<< HEAD
 .box-price-item,
 .box-price-item.active {
     position: relative;
+=======
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav li {
+    padding: 0;
+    margin-right: 40px;
+}
+.nav li:last-child {
+    margin-right: 0;
+}
+.page-company {
+    background-image: url(../img/partners-bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 106px 0 97px;
+}
+.list-company {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+} 
+.company-one {
+    background-image: url(../img/company-one.png);
+    flex-basis: 198px;
+    height: 59px;
+}.company-two {
+    background-image: url(../img/company-two.png);
+    flex-basis: 200px;
+    height: 70px;
+}.company-three {
+    background-image: url(../img/company-three.png);
+    flex-basis: 201px;
+    height: 47px;
+}.company-four {
+    background-image: url(../img/company-four.png);
+    flex-basis: 200px;
+    height: 70px;
+}
+.list-company-item {
+    display: block;
+    background-repeat: no-repeat;
+}
+.page-grid h2 {
+    max-width: 260px;
+    letter-spacing: -1.2px;
+    line-height: 1.2;
+}
+.page-grid h2 span {
+    letter-spacing: 2.8px;
+    margin-bottom: 16px;
+}
+.page-subscribe h2 {
+    letter-spacing: -1.4px;
+}
+.page-subscribe h2 span {
+    letter-spacing: 1px;
+    letter-spacing: 2.8px;
+    margin-bottom: 31px;
+}
+.page-softwere h2 {
+    max-width: 545px;
+    letter-spacing: -0.85px;
+    line-height: 1.2;
+}
+.page-app-1 h2,
+.page-app h2,
+.page-form h2 {
+    max-width: 465px;
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+}
+.page-analitics h2 {
+    max-width: 505px;
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+}
+.page-app h2 {
+    max-width: 425px;
+}
+.page-clients h2,
+.page-team h2 {
+    max-width: 331px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+}
+.page-clients h2 span,
+.page-team h2 span {
+    display: block;
+    color: #85c8ff;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3.7px;
+    margin-bottom: 27px;
+}
+.page-form h2 {
+    max-width: 482px;
+}
+.box-price-item h3 {
+    color: #000958;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 36px;
+    margin-top: 0;
+}
+.box-price-item:nth-child(3) h3 {
+    margin-bottom: 15px;
+}
+.box-price-item p {
+    color: #0084ff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 35px;
+}
+.box-price-item ul {
+    font-size: 14px;
+    /* line-height: 2.9; */
+}
+.box-price-item ul li {
+    margin-bottom: 14px;
+}
+.box-price-item span {
+    font-size: 20px;
+    font-weight: 700;
+}
+/* Тестировал свойства */
+.box-price-item span:last-child {
+    font-size: 20px;
+    color: #7b8ab2;
+    letter-spacing: -1px;
+}
+.box-price-item.active h3,
+.box-price-item.active p {
+    color: #fff;
+}
+.box-price-item.active h3 {
+    margin-bottom: 15px;
+}
+.box-price-item.active ul {
+    margin-bottom: 60px;
+}
+.box-price-item {
+    flex-basis: 31.5%;
+    position: relative;
+    padding: 89px 0 82px 0;
+}
+.title-40 {
+    margin-bottom: 83px;
+}
+/* .container {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 621px solid red;
+    border-left: 61px solid transparent;
+    border-right: 0px solid transparent;
+    top: 0;
+    right: 0;
+} */
+.box-price-item:nth-child(odd)::after {
+    width: 65px;
+    height: 590px;
+    content: " ";
+    position: absolute;
+    background-image: url(../img/right-element2.png);
+    top: 0;
+    right: 0; 
+}
+.page-header {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 54px 0 328px 0;
+    position: relative;
+}
+.page-subscribe {
+    background: rgba(10,32,144,1);
+    background: -moz-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(10,32,144,1)), color-stop(100%, rgba(35,120,205,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: linear-gradient(135deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2090', endColorstr='#2378cd', GradientType=1 );
+}
+.page-subscribe .wrap {
+    display: flex;
+    justify-content: space-between;  
+}
+.page-subscribe {
+    padding: 51px 0;
+}
+.page-subscribe .wrap img {
+    height: 80%;
+    width: 32%;
+}
+.page-subscribe h2 {
+    margin-top: 62px;
+}
+.page-subscribe p {
+    max-width: 405px;
+}
+.page-subscribe form {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 37px;
+    padding: 8px 0;
+    width: 536px;
+    margin-top: 41px;
+}
+.page-subscribe button {
+    margin-left: 118px;
+    outline: none;
+}
+.page-subscribe input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 37px;
+>>>>>>> homework
 }
